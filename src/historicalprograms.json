@@ -1,0 +1,87 @@
+[
+	{
+		"title": "1967",
+		"programs": [
+			{
+				"date": "Konser Programı",
+				"link": "https://gazikonsersalonu.gazi.edu.tr/programlar/1967_kp.pdf"
+			},
+			{
+				"date": "6 Mart 1967",
+				"link": "https://gazikonsersalonu.gazi.edu.tr/programlar/6mart1967.pdf"
+			}
+		]
+	},
+	{
+		"title": "1969",
+		"programs": [
+			{
+				"date": "Konser Programı",
+				"link": "https://gazikonsersalonu.gazi.edu.tr/programlar/1969_kp.pdf"
+			},
+			{
+				"date": "22 Mayıs 1969",
+				"link": "https://gazikonsersalonu.gazi.edu.tr/programlar/s1.pdf"
+			}
+		]
+	},
+	{
+		"title": "1970",
+		"programs": [
+			{
+				"date": "Konser Programı",
+				"link": "https://gazikonsersalonu.gazi.edu.tr/programlar/1970_kp.pdf"
+			},
+			{
+				"date": "11 Mayıs 1970",
+				"link": "https://gazikonsersalonu.gazi.edu.tr/programlar/s1_1.pdf"
+			},
+			{
+				"date": "24 Mayıs 1970",
+				"link": "https://gazikonsersalonu.gazi.edu.tr/programlar/s1_2.pdf"
+			}
+		]
+	},
+	{
+		"title": "1971",
+		"programs": [
+			{
+				"date": "Konser Programı",
+				"link": "https://gazikonsersalonu.gazi.edu.tr/programlar/1971.pdf"
+			},
+			{
+				"date": "1971",
+				"link": "https://gazikonsersalonu.gazi.edu.tr/programlar/"
+			},
+			{
+				"date": "28 Şubat 1971",
+				"link": "https://gazikonsersalonu.gazi.edu.tr/programlar/s1_5.pdf"
+			},
+			{
+				"date": "25 Nisan 1971",
+				"link": "https://gazikonsersalonu.gazi.edu.tr/programlar/s1_4.pdf"
+			}
+		]
+	},
+	{
+		"title": "1972",
+		"programs": [
+			{
+				"date": "Konser Programı",
+				"link": "https://gazikonsersalonu.gazi.edu.tr/programlar/1972.pdf"
+			},
+			{
+				"date": "16 Mart 1972",
+				"link": "https://gazikonsersalonu.gazi.edu.tr/programlar/s1_7.pdf"
+			},
+			{
+				"date": "4 Nisan 1972",
+				"link": "https://gazikonsersalonu.gazi.edu.tr/programlar/s1_6.pdf"
+			},
+			{
+				"date": "24 Mayıs 1972",
+				"link": "https://gazikonsersalonu.gazi.edu.tr/programlar/s1_8.pdf"
+			}
+		]
+	}
+]
