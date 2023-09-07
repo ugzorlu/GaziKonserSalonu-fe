@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { pdfjs, Document, Page } from 'react-pdf';
-import sample from '../sample.pdf';
 import 'react-pdf/dist/Page/AnnotationLayer.css';
 import 'react-pdf/dist/Page/TextLayer.css';
 
@@ -8,20 +7,6 @@ pdfjs.GlobalWorkerOptions.workerSrc = new URL(
 	'pdfjs-dist/build/pdf.worker.min.js',
 	import.meta.url
 ).toString();
-
-// const RenderPDF = (index, isPDFVisible) => {
-// 	console.log('RenderPDF is called...');
-// 	console.log(index);
-// 	return (
-// 		<>
-// 			{isPDFVisible && (
-// 				<Document className='Year-program-pdf' file={sample}>
-// 					<Page pageNumber={1} />
-// 				</Document>
-// 			)}
-// 		</>
-// 	);
-// };
 
 const YearWrapper = (props) => {
 	const [isVisible, setIsVisible] = useState(false);
@@ -56,7 +41,7 @@ const YearWrapper = (props) => {
 										{visiblePDFIndex === index && (
 											<Document
 												className='Year-program-pdf'
-												file={sample}
+												file={process.env.PUBLIC_URL + '/sample.pdf'}
 												loading='Yükleniyor...'
 											>
 												<Page
