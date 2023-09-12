@@ -9,8 +9,6 @@ const EmbeddedPanoramicView = (props) => {
 			height: window.innerHeight,
 		};
 	}
-	console.log('screenSize:');
-	console.log(screenSize);
 
 	useEffect(() => {
 		const updateDimension = () => {
@@ -29,10 +27,11 @@ const EmbeddedPanoramicView = (props) => {
 				title='Embbedded Panoramic View'
 				width={screenSize.width * 0.75}
 				height={screenSize.height * 0.75}
-				src='https://www.google.com/maps/embed?pb=!4v1694091661418!6m8!1m7!1sCAoSLEFGMVFpcFByckFCMk80R05xNHB3blJkSkVlWE9Vc0pwTEFoalRNeTJKcWYx!2m2!1d38.3967707841247!2d27.0782960421401!3f20!4f20!5f0.7820865974627469'
+				src='https://www.google.com/maps/embed?pb=!4v1694091661418!6m8!1m7!1sCAoSLEFGMVFpcFByckFCMk80R05xNHB3blJkSkVlWE9Vc0pwTEFoalRNeTJKcWYx!2m2!1d38.3967707841247!2d27.0782960421401!3f20!4f20!5f0.7820865974627469&language=tr'
 				allowfullscreen=''
 				loading='lazy'
 				referrerpolicy='no-referrer-when-downgrade'
+				lang='tr'
 			/>
 		</div>
 	);

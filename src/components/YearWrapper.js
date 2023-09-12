@@ -16,6 +16,7 @@ const YearWrapper = (props) => {
 			onMouseEnter={() => setIsVisible(true)}
 			onMouseLeave={() => setIsVisible(false)}
 			onClick={() => setIsVisible(!isVisible)}
+			onScroll={(e) => e.stopPropagation()}
 		>
 			<div className='Year-title'>{props.year.title}</div>
 			<div className='Year-content-container'>
